@@ -31,7 +31,7 @@
     
 }
 .links:hover, .links:active {
-    color: #f7cd13;
+    color: #b8b8b8;
 
 }
 a {
@@ -55,7 +55,7 @@ a {
 }
 .dropdownList >*{
     padding:1em;
-    color: #685f5f;
+    color: #dddddd;
     border-radius: 2%;
 
     /* background: #fff; */
@@ -63,7 +63,7 @@ a {
 }
 
 .dropdownItem:hover {
-    background: #f7ee74;
+    background: #757575;
 
 }
 
