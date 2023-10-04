@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styles for the navbar */
+
+.nav {
+    background: #3a3a3a;
+    padding: 1em 1em 1em 1em;
+    font-size: 1.6em;
+    color: #fff;
+    display:flex;
+    gap: 1em;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: inheit;
+}
+
+.dropdown {
+    background: none;
+    color:inherit;
+    border : none;
+    font-size: inherit;
+    font-weight:inherit;
+    text-align: center;   
+
+
+    
+}
+
