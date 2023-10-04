@@ -46,10 +46,11 @@ a {
     position: absolute;
     /* top: 4em; */
     left: 5.6em; 
-    border: 1px solid #000;
+    border: 1px solid #cccccc;
     border-radius: 2%;
     background: #e2e2e2;
     display:none;
+    box-shadow:#bebdbd 1px 1px 5px;
 
 }
 .dropdownList >*{
