@@ -45,7 +45,7 @@ a {
 .dropdownList{
     position: absolute;
     /* top: 4em; */
-    left: 5.6em; 
+    left: 10em; 
     border: 1px solid #cccccc;
     border-radius: 2%;
     background: #e2e2e2;
@@ -69,4 +69,29 @@ a {
 
 .dropdown:hover .dropdownList {
     display:block;  
+}
+
+.searchBar {
+margin-left: auto;
+margin-right: 1em;
+
+}
+
+.inputSearchField {
+    height: 2em;
+    width: 18em;
+    background: #ececec;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-right: 1em;
+}
+.searchButton {
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 7em;
+    height: 2em;
+    font-weight: bold;
+    color: #303030;
+    
 }
