@@ -20,13 +20,35 @@
     flex-direction:column;
     gap: 1em;
 }
-.loginSelect > select {
+#loginSelect   {
+    padding: 0.2em;
+    margin-left: 0.6em;
+    max-width: fit-content;
+    
+}
+#loginSelect  {
     color: #535353;
+    font-weight:bold;
     
 }
 .submitButton{
     padding: 5px;
     min-width: 7em;
+    font-weight:bold;
+    color: #393939;
 }
 
-
+#username ,#password {
+    border-radius: 5px;
+    margin-left: 1em;
+    padding: 0.5em;
+}
+.hidden {
+    display:none;
+}
+.loginSignup {
+    display:flex;
+    gap:0.8em;
+    justify-content:end;
+    
+}
