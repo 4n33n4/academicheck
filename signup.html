@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup | AcademiCheck</title>
+</head>
+<body>
+    <header class="nav">
+        <section class="title">
+            <a class="links" href="index.html">AcademiCheck</a>
+        </section>
+        <section class="login"><a class="links" href="./about.html">About</a></section>
+        <section class="dropdown links"><a class="links" href="login.html">Login</a>
+        </section>
+        <section id="signupLink" class=" signupLinks links"><a class="links" href="signup.html">Signup</a> </section>
+        <section class="searchBar">
+            <input class="inputSearchField" type="search" name="searchBar" id="searchBar">
+            <button class="searchButton" type="button">Search</button>
+        </section>
+
+
+    </header>
+
+    <article class="content">
+        <section class="signupPortal">
+        <section class="signupSelectSection">
+        <label for="signupSelect">Create Account as:</label>
+        
+        <select name="signup" id="signupSelect">
+          <option value="parent">Parent</option>
+          <option value="student">Student</option>
+        </select>
+        </section>
+        <section class="firstNameSection">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName">
+        </section>
+        <section class="lastNameSection">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName">
+        </section>
+        <section class="departmentSection" id="departmentSection">
+            <label for="dept">Select Department: </label>
+            <select name="dept" id="dept">
+                <option value="cs">CS</option>
+                <option value="english">English</option>
+                <option value="history">History</option>
+              </select>
+        </section>
+        <section class="usernameSection">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+        </section>
+        <section class="studentUsernameSection" id="studentUsernameSection">
+            <label for="studentUsername">Student's Username:</label>
+            <input type="text" name="studentUsername" id="studentUsername">
+            </section>
+        <section class="passwordSection">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </section>
+        <section class="passwordConfirmationSection">
+            <label for="passwordConfirmation">Retype Password:</label>
+            <input type="password" id="passwordConfirmation">
+        </section>
+        <section class="loginSignup">
+        <button class="submitButton signupLinks" id="submitButton" type="submit" onclick="signup()">Signup</button>
+        </section>
+        </section>
+    </article>
+    <script src="scripts.js"></script>
+    <script src="signup.js"></script>
+    
+</body>
+</html>

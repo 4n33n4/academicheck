@@ -1,6 +1,5 @@
-@import url("styles.css");
-
-.loginPortal {
+@import url("./styles.css");
+.signupPortal {
     background: #d7dada;
     min-height: 70vh;
     max-height: fit-content;
@@ -14,42 +13,63 @@
     
 }
 
-.loginPortal {
+.signupPortal {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
     gap: 1em;
 }
-#loginSelect   {
+#signupSelect   {
     padding: 0.2em;
     margin-left: 0.6em;
     max-width: fit-content;
     
 }
-#loginSelect  {
+#signupSelect  {
     color: #535353;
     font-weight:bold;
     
 }
 .submitButton{
     padding: 5px;
-    min-width: 7em;
+    min-width: 8em;
     font-weight:bold;
     color: #393939;
 }
 
-#username ,#password {
-    border-radius: 5px;
-    margin-left: 1em;
-    padding: 0.5em;
+input {
+    border-radius:5px;
+    padding:0.5em;
 }
-.hidden {
+
+.passwordConfirmationSection {
+    position:relative;
+    left: -1.5em;
+}
+
+.hidden  {
     display:none;
 }
-.loginSignup {
-    display:flex;
-    gap:0.8em;
-    justify-content:end;
-    
+
+.departmentSection > select{
+padding: 0.3em;
+font-weight:bold;
+color:#272727;
+
+}
+.departmentSection{
+    position:relative;
+    left: -2em;
+}
+
+.signupSelectSection{
+    position:relative;
+    left: -1.3em;
+
+}
+
+.studentUsernameSection {
+    position:relative;
+    left: -2em;
 }

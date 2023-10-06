@@ -12,7 +12,7 @@ var loginSelect = document.querySelector("#loginSelect");
 loginSelect.addEventListener("click", ()=> {
     var signupLinks = document.getElementsByClassName("signupLinks");
     for(var i=0; i<signupLinks.length; ++i) {
-        if(loginSelect.value != "admin" ){
+        if((loginSelect.value != "admin") &&  (loginSelect.value != "teacher") ){
             signupLinks[i].classList.remove("hidden");
            
             
