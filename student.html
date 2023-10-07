@@ -18,32 +18,32 @@
         <section class=" links"><a class="links" href="signup.html">Signup</a> </section>
         <section class="links dropdown">Attendance
             <section class="dropdownList list1">
-                <button  type="button" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
-                <button  type="button" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
-                <button  type="button" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
-                <button  type="button" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
-                <button  type="button" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
-                <button  type="button" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
+                <button      onclick="getAttendance(this)" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
+                <button      onclick="getAttendance(this)" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
+                <button      onclick="getAttendance(this)" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
+                <button      onclick="getAttendance(this)" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
+                <button      onclick="getAttendance(this)" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
+                <button      onclick="getAttendance(this)" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
             </section>
         </section>
         <section class="links dropdown">Marks
-            <section class="dropdownList list2">
-                <button  type="button" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
-                <button  type="button" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
-                <button  type="button" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
-                <button  type="button" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
-                <button  type="button" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
-                <button  type="button" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
+            <section class="dropdownList list2" >
+                <button      onclick="getMarks(this)" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
+                <button      onclick="getMarks(this)" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
+                <button      onclick="getMarks(this)" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
+                <button      onclick="getMarks(this)" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
+                <button      onclick="getMarks(this)" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
+                <button      onclick="getMarks(this)" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
             </section>
         </section>
         <section class="links dropdown">Internal Marks
             <section class="dropdownList list3">
-                <button  type="button" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
-                <button  type="button" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
-                <button  type="button" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
-                <button  type="button" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
-                <button  type="button" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
-                <button  type="button" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
+                <button      onclick="getInternals(this)" value="sem1" class="links block dropdownItem dropdownButton">Sem 1</button>
+                <button      onclick="getInternals(this)" value="sem2" class="links block dropdownItem dropdownButton">Sem 2</button>
+                <button      onclick="getInternals(this)" value="sem3" class="links block dropdownItem dropdownButton">Sem 3</button>
+                <button      onclick="getInternals(this)" value="sem4" class="links block dropdownItem dropdownButton">Sem 4</button>
+                <button      onclick="getInternals(this)" value="sem5" class="links block dropdownItem dropdownButton">Sem 5</button>
+                <button      onclick="getInternals(this)" value="sem6" class="links block dropdownItem dropdownButton">Sem 6</button>
             </section>
         </section>
 
@@ -56,9 +56,9 @@
 
     </header>
     <section  class="container">
-
-         <h1 class="heading">Internal Marks</h1>
-          <table>
+        <h1 id="default">Choose Something</h1>
+         <h1 id="heading"class="heading hidden">Internal Marks</h1>
+          <table id="internalMarks" class="hidden">
             
             <thead>
               <tr>
@@ -91,11 +91,63 @@
             </tbody>
           </table>
 
+          <table id="marks" class="hidden">
+            <thead>
+              <tr>
+                <th>subject</th>
+                <th>marks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>subject 1</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>subject2</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>subject3</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>subject4</td>
+                <td>100</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table id="attendance" class="hidden">
+            <thead>
+              <tr>
+                <th>This Month</th>
+                <th>This Semester</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+            </tbody>
+          </table>
+
     </section>
  
-<script >
-
-</script>
+<script src="./student.js"></script>
 
 </body>
 
