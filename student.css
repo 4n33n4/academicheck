@@ -4,6 +4,9 @@
     --hover-bg: #b0b0b0;
     --font-color: #1d1d1d;
 }
+body {
+    min-height:100vh;
+}
 .dropdownList > {
     color: #080808;
     position: relative;
@@ -62,4 +65,26 @@
 }
 .dropdownButton:focus, .dropdownButton:hover {
     color: var(--font-color);
+}
+
+.container {
+    min-width: 90vw;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+table {
+    /* border:1px solid #000; */
+    border-collapse: collapse;
+    
+}
+ th, td, tr {
+    border: 2px solid #7c7c7c;
+    padding: 1em;
+    color: #181818;
+    font-size:1.4em;
+
 }
