@@ -42,34 +42,7 @@ a {
 .block {
     display:block;
 }
-.dropdownList{
-    position: absolute;
-    /* top: 4em; */
-    left: 10em;     
-    border: 1px solid #cccccc;
-    border-radius: 2%;
-    background: #e2e2e2;
-    display:none;
-    box-shadow:#bebdbd 1px 1px 5px;
 
-}
-.dropdownList >*{
-    padding:1em;
-    color: #dddddd;
-    border-radius: 2%;
-
-    /* background: #fff; */
-    
-}
-
-.dropdownItem:hover {
-    background: #757575;
-
-}
-
-.dropdown:hover .dropdownList {
-    display:block;  
-}
 
 .searchBar {
 margin-left: auto;

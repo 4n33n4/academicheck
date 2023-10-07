@@ -1,0 +1,65 @@
+@import url("./styles.css");
+:root {
+    --list-bg: #dfdfdf;
+    --hover-bg: #b0b0b0;
+    --font-color: #1d1d1d;
+}
+.dropdownList > {
+    color: #080808;
+    position: relative;
+    left: 5em;  
+}
+.dropdownItem {
+    background: #fff;
+    color: #000;
+
+}
+.dropdownList{
+        
+    border: 1px solid #cccccc;
+    border-radius: 2%;
+    background: var(--list-bg);
+    display:none;
+    box-shadow:#bebdbd 1px 1px 5px;
+
+}
+.list1{
+    position: absolute;
+    /* top: 4em; */
+    left: 11em; 
+}
+.dropdownList >*{
+    padding:1em;
+    color: #575757;
+    border-radius: 2%;
+
+    /* background: #fff; */
+    
+}
+
+.dropdownItem:hover {
+    background: var(--hover-bg);
+
+}
+
+.dropdown:hover .dropdownList {
+    display:block;  
+}
+
+.list2, .list3 {
+    position: absolute;
+}
+.list2 {
+    left: 15.8em;
+
+}
+
+.dropdownButton {
+    border:none;
+    background:inherit;
+    width: 100%;
+    color: var(--font-color)
+}
+.dropdownButton:focus, .dropdownButton:hover {
+    color: var(--font-color);
+}
