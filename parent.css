@@ -103,3 +103,24 @@ table {
 #heading {
     font-size: 3em;
 }
+
+.usernameSection {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
+.usernamePortal{
+    font-size:1.5em;
+    font-weight: bold;
+    color: #161515;
+}
+.usernamePortal > input {
+    padding: 1em;
+
+}
+.usernamePortal > button{
+    padding: 1em;
+    font-weight: bold;
+}
