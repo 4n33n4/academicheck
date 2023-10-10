@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* styles for the navbar */
-
+body {
+    font-family: 'Young Serif', serif;
+}
 .nav {
     background: #3a3a3a;
     padding: 1em 1em .5em 1em;

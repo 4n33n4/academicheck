@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="admin.css">
     <title>AcademiCheck</title>
 </head>
 
@@ -12,18 +12,11 @@
 
     <header class="nav">
         <section class="title">
-            <a class="links" href="index.html">AcademiCheck</a>
+            <a class="links" href="index.html">Admin</a>
         </section>
         <section class="login"><a class="links" href="./about.html">About</a></section>
         <section class="dropdown links"><a class="links" href="login.html">Login</a>
-            
-            <!-- <section class="dropdownList ">
-                <a class="block dropdownItem" href="admin.html">Admin</a>
-                <a class="block dropdownItem"  href="student.html">Student</a>
-                <a class="block dropdownItem"  href="teacher.html">Teacher</a>
-                <a class="block dropdownItem"  href="parent.html">Parent</a>
-            </section> -->
-        <!-- </section>
+        </section>
         <section class="searchBar">
             <input class="inputSearchField" type="search" name="searchBar" id="searchBar">
             <button class="searchButton" type="button">Search</button>
@@ -32,29 +25,38 @@
 
     </header>
    <article class="content">
-<section class="loginPortal">
-<section class="loginSelectSection">
-<label for="loginSelect">Login as:</label>
+<section class="container">
+<section class="header">
+    <h2>Add Teachers</h2>
 
-<select name="login" id="loginSelect">
-  <option value="">--Please choose an option--</option>
-  <option value="admin">Admin</option>
-  <option value="teacher">Teacher</option>
-  <option value="parent">Parent</option>
-  <option value="student">Student</option>
-</select>
-</section>  -->
-<!-- <section class="usernameSection">
-<label for="username">Username</label>
-<input type="text" name="username" id="username">
+</section> 
+<section class="usernameSection">
+<label for="usernameAdd">Username:</label>
+<input type="text" name="usernameAdd" id="usernameAdd">
 </section>
-<section class="passwordSection">
-    <label for="password">password</label>
+<!-- <section class="passwordSection">
+    <label for="password">Password:</label>
     <input type="password">
+</section>   -->
+
+<button class="submitButton" type="submit" >Submit</button>
 </section>
 
-<button class="submitButton" type="submit"  >Submit</button>
-</section>
+<section class="container">
+    <section class="header">
+        <h2>Remove teachers</h2>
+    
+    </section>
+    <section class="usernameSection">
+    <label for="usernameRemove">Username:</label><input type="text" name="usernameRemove" id="usernameRemove">
+    </section>
+    <!-- <section class="passwordSection">
+        <label for="password">Password:</label>
+        <input type="password">
+    </section> -->
+    
+    <button class="submitButton" type="submit"  >Submit</button>
+    </section>
 </article>
 
 
