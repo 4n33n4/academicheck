@@ -26,3 +26,11 @@ loginSelect.addEventListener("click", ()=> {
         }
     }
 )
+
+var signupLinks = document.getElementsByClassName("signupLinks");
+
+if(loginSelect.value == "admin" || loginSelect.value == "teacher") {
+    for(var i=0; i<signupLinks.length; i++){
+        signupLinks[i].classList.add("hidden");
+    }
+}
