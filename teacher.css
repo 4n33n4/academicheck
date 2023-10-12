@@ -53,3 +53,31 @@
     justify-content:end;
     
 }
+
+.dropdownList {
+    position:absolute;
+    background:#acacac;
+    min-width: 4em;
+    
+
+}
+.dropdownList {
+    display:none;
+
+}
+.dropdown:hover .dropdownList {
+    display:block;
+    border:1px solid #cccccc;;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(194, 193, 193);
+}
+.dropdownItem {
+    
+    width:100%;
+    padding: 1em;
+    font-size:0.7em;
+    border:none;
+    
+    
+}
+
