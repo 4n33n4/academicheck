@@ -29,7 +29,7 @@ body {
 .list1{
     position: absolute;
     /* top: 4em; */
-    left: 7.5em; 
+    left: 9em; 
 }
 .dropdownList >*{
     padding:1em;
@@ -38,6 +38,13 @@ body {
 
     /* background: #fff; */
     
+}
+
+.viewButton {
+    padding: 0.5em 1em 0.5em 1em;   
+    font-size: 1em;
+    font-weight: bold;
+
 }
 
 .dropdownItem:hover {
@@ -53,7 +60,7 @@ body {
     position: absolute;
 }
 .list2 {
-    left: 12em;
+    left: 14.5em;
 
 }
 

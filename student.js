@@ -4,6 +4,7 @@ var internalMarks = document.getElementById("internalMarks");
 var attendance = document.getElementById("attendance");
 var heading  = document.getElementById("heading");
 var defaultText = document.getElementById("default")
+var viewSection = document.getElementById("view");
 
 function getMarks(button) {
 defaultText.classList.add("hidden");
@@ -15,6 +16,7 @@ attendance.classList.add("hidden")
 heading.innerHTML = "Marks";
 
 heading.classList.remove("hidden");
+viewSection.classList.remove("hidden");
 }
 
 function getAttendance(button) {
@@ -27,7 +29,7 @@ function getAttendance(button) {
     heading.innerHTML = "Attendance";
     
     heading.classList.remove("hidden");
-}
+    }
 
 function getInternals(button) {
     defaultText.classList.add("hidden");
@@ -39,4 +41,14 @@ function getInternals(button) {
     heading.innerHTML = "Internals";
     
     heading.classList.remove("hidden");
+}
+
+
+
+function getMoreMarks() 
+{
+    var viewSubtext = document.getElementById("viewSubtext");
+    viewSubtext.classList.remove("hidden");
+    var viewButton = document.getElementById("viewButton");
+    viewButton.classList.add("hidden");
 }
