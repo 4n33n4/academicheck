@@ -29,7 +29,7 @@ body {
 .list1{
     position: absolute;
     /* top: 4em; */
-    left: 9em; 
+    /* left: 7em;  */
 }
 .dropdownList >*{
     padding:1em;
@@ -60,7 +60,7 @@ body {
     position: absolute;
 }
 .list2 {
-    left: 14.5em;
+    /* left: 12em; */
 
 }
 
