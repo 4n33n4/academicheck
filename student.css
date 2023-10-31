@@ -2,7 +2,7 @@
 :root {
     --list-bg: #dfdfdf;
     --hover-bg: #b0b0b0;
-    --font-color: #1d1d1d;
+    --font-color: #1d1d1d;  
 }
 body {
     min-height:100vh;
