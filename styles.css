@@ -7,11 +7,11 @@
 }
 /* styles for the navbar */
 body {
-    font-family: 'Young Serif', serif;
+    font-family: 'Young Serif', serif;  
 }
 .nav {
-    background: #3a3a3a;
-    padding: 1em 1em .5em 1em;
+    background: linear-gradient(rgb(23, 30, 37), rgb(9, 9, 9));
+    padding: 1em 1em 1em 1em;
     font-size: 1.5em;
     color: #fff;
     display:flex;
