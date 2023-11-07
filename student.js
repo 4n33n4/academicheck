@@ -63,8 +63,8 @@ switch(button.value){
         subject1.textContent = "Computer graphics";
         subject2.textContent = "Big Data Analysis";
         subject3.textContent = "Python and Latex";
-        subject4.textContent = "Nil";
-        subject5.textContent = "Nil";
+        subject4.textContent = "Seminar";
+        subject5.textContent = "Project";
         break;
     
 }
@@ -143,8 +143,8 @@ function getInternals(button) {
             subjectInt1.textContent = "Computer graphics";
             subjectInt2.textContent = "Big Data Analysis";
             subjectInt3.textContent = "Python and Latex";
-            subjectInt4.textContent = "Nil";
-            subjectInt5.textContent = "Nil";
+            subjectInt4.textContent = "Seminar";
+            subjectInt5.textContent = "Project";
             break;
         
     }
