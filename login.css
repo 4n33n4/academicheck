@@ -39,7 +39,7 @@
     color: #393939;
 }
 
-#username ,#password {
+#username ,#password,#admno {
     border-radius: 5px;
     margin-left: 1em;
     padding: 0.5em;
