@@ -53,3 +53,7 @@
     justify-content:end;
     
 }
+.studentAdmissionNo{
+    position: relative;
+    left: -1.2em;
+}

@@ -73,3 +73,20 @@ color:#272727;
     position:relative;
     left: -2em;
 }
+.registerNumberSection{
+    position: relative;
+    left: -1.7em;
+}
+.phoneNumberSection{
+    position : relative;
+    left: -1.2em;
+}
+.userNameSection{
+    position: relative;
+    left: -1.6em;
+}
+
+.passwordConfirmationSection{
+    position:relative;
+    left: -1.8em;
+}
